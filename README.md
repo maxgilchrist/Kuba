@@ -1,7 +1,37 @@
-#Kuba
-In progress
-## Background 
-[Kuba](http://www.di.fc.ul.pt/~jpn/gv/kuba.htm)
+# Kuba
+Max Gilchrist, Kevin Li
+Gamescrafters Theory Team
+
+## SP 20 Write Up 
+Here are two references to the Kuba game and instructions:
+[Rules 1](http://www.di.fc.ul.pt/~jpn/gv/kuba.htm)
+[Rules 2](https://sites.google.com/site/boardandpieces/list-of-games/kuba)
+
+### Board Count
+We broke down the board into three possible cases: (1) all possible positions with at least one white and one black marble, (2) all winning board positions for white with no black marbles, and (3) all winning board positions for black with no white marbles. 
+
+Case 1: ![case1]()
+
+Case 2: ![case2]()
+
+Case 3: ![case3]()
+
+The total sum was 1.24E26.
+
+### Smaller Possibilities
+Given that our count was too large, we experimented with three smaller, 5x5 versions of the game.
+
+![225]()![2213]()![885]()
+
+We found that the 5x5 board with 2 starting whites/blacks and 5 reds best maintained the overall strategic features of the original game.
+
+### Tier Count for 2,2,5
+| Tier   | Pieces        | Number     |
+| ------ |:-------------:| ----------:|
+| 0      | r=5, w=2, b=2 |       |
+
+### For the future
+
 
 ### Goal
 My goal is to the create the tighest hash possible 
