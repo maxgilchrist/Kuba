@@ -1,5 +1,6 @@
 # Kuba
 Max Gilchrist, Kevin Li
+
 Gamescrafters Theory Team
 
 ## SP 20 Write Up 
