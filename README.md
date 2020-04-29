@@ -31,8 +31,6 @@ We found that the 5x5 board with 2 starting whites/blacks and 5 reds best mainta
 The Tier Counts for each are [here](https://github.com/maxgilchrist/Kuba/tree/master/Output)
 
 ### Hashing
-My goal is to the create the tighest hash possible 
-for any solving of the game
 
 #### Overview
 The end goal is to create a triple tier hash dictonary
@@ -41,8 +39,8 @@ should addPosition(position) lookup(position)
 The triple tiered dictonary is comprised of 
 three layers. 
 **First Layer** - Counts red and returns pointer to correct second layer
-**Second Layer** - Counts white and returns point to correct third layer
-**Third Layer** - Counts black and returns point to the correct hashmap
+**Second Layer** - Counts white and returns pointer to correct third layer
+**Third Layer** - Counts black and returns pointer to the correct hashmap
 
 As we already have an upperbound on the number of positions in each tier
 we have intialized all of the hashmaps with that size and this 
