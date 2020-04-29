@@ -25,10 +25,7 @@ Given that our count was too large, we experimented with three smaller, 5x5 vers
 
 We found that the 5x5 board with 2 starting whites/blacks and 5 reds best maintained the overall strategic features of the original game.
 
-### Tier Count for 2,2,5
-| Tier   | Pieces        | Number     |
-| ------ |:-------------:| ----------:|
-| 0      | r=5, w=2, b=2 |       |
+The Tier Counts for each are [here](https://github.com/maxgilchrist/Kuba/tree/master/Output)
 
 ### For the future
 
